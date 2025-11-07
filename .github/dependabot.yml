@@ -7,7 +7,7 @@ updates:
       # Check weekly on Tuesdays at 4 PM Berlin time
       interval: "weekly"
       day: "friday"
-      time: "11:08"
+      time: "11:26"
       timezone: "Europe/Berlin"
     
     # IMPORTANT: Set to 0 to prevent any automatic PRs
