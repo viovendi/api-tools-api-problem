@@ -6,13 +6,13 @@ updates:
     schedule:
       # Check weekly on Tuesdays at 4 PM Berlin time
       interval: "weekly"
-      day: "tuesday"
-      time: "16:00"
+      day: "friday"
+      time: "11:08"
       timezone: "Europe/Berlin"
     
     # IMPORTANT: Set to 0 to prevent any automatic PRs
     # This enables vulnerability scanning without creating update PRs
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 10
     
     # Dependabot will scan for all vulnerabilities but won't create PRs
     # Security alerts will still be generated in the Security tab
